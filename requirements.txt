@@ -1,0 +1,4 @@
+blobfile
+sudo apt update
+sudo apt-get install libopenmpi-dev
+mpi4py
