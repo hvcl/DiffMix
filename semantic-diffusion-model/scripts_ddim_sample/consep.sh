@@ -1,0 +1,22 @@
+python image_sample.py \
+--data_dir /Dataset/consep/Train \
+--dataset_mode consep \
+--attention_resolutions 32,16,8 \
+--diffusion_steps 1000 \
+--image_size 256 \
+--learn_sigma True \
+--noise_schedule linear \
+--num_channels 256 \
+--num_head_channels 64 \
+--num_res_blocks 2 \
+--resblock_updown True \
+--use_fp16 True \
+--use_scale_shift_norm True \
+--num_classes 5 \
+--class_cond True \
+--no_instance False \
+--model_path OUTPUT/consep-SDM-256CH-FINETUNE/ema_0.9999_010000.pt \
+--results_path RESULTS/consep-grad_sdm \
+--timestep_respacing ddim100 \
+--s 1.5 \
+--batch_size 1 --ddim_percent 55 --gpu 0 --idx_img 0
