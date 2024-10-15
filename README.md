@@ -7,12 +7,15 @@ ___
 
 ![Overview](./figure/overview.png)
 
+#### Update
+- (Oct. 14th. 2024) Changed google drive link for the GLySAC dataset, as the original link is broken. * Original GLySAC data was provided by [SONNET](https://github.com/QuIIL/Sonnet).
+
 #### Abstract
 - Nuclei segmentation and classification is a significant process in pathology image analysis. Deep learning-based approaches have greatly contributed to the higher accuracy of this task. However, those approaches suffer from the imbalanced nuclei data composition, which shows lower classification performance on the rare nuclei class. In this paper, we propose a realistic data synthesis method using a diffusion model. We generate two types of virtual patches to enlarge the training data distribution, which is for balancing the nuclei class variance and for enlarging the chance to look at various nuclei. After that, we use a semantic-label-conditioned diffusion model to generate realistic and high-quality image samples. We demonstrate the efficacy of our method by experiment results on two imbalanced nuclei datasets, improving the state-of-the-art networks. The  experimental results suggest that the proposed method improves the classification performance of the rare type nuclei classification, while showing superior segmentation and classification performance in imbalanced pathology nuclei datasets.
 
 #### Dataset Preparation
 - [CoNSeP](https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/)
-- [GLySAC](https://drive.google.com/drive/folders/1p0Yt2w8MTcaZJU3bdh0fAtTrPWin1-zb)
+- [GLySAC](https://drive.google.com/file/d/1g1_xYFWgp3cRLKrlSwD2U5JDjooC0yHp/view?usp=drive_link)
 
 #### Implementation
 - Requirements
