@@ -23,7 +23,7 @@ You can train SDM with the script "semantic-diffusion-model/scripts_ddim_sample"
 - Training code: image_train.py
 - Sampling code: image_sample.py
 
-#### Acknowledge
+#### Acknowledgement
 Our code is developed based on [Semantic Image Synthesis via Diffusion Models (SDM)](https://github.com/WeilunWang/semantic-diffusion-model) and [GradMix](https://github.com/QuIIL/Grad_Mix).
 
 #### Citation
