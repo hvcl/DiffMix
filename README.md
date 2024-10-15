@@ -7,7 +7,7 @@ ___
 
 ![Overview](./figure/overview.png)
 
-#### Update
+#### Updates
 - (Oct. 14th. 2024) Changed google drive link for the GLySAC dataset, as the original link is broken. * Original GLySAC data was provided by [SONNET](https://github.com/QuIIL/Sonnet).
 
 #### Abstract
