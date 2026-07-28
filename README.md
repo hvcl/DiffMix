@@ -29,11 +29,23 @@ You can train SDM with the script "semantic-diffusion-model/scripts_ddim_sample"
 - Sampling code: image_sample.py
 
 #### Checkpoints
-- [CoNSeP](https://drive.google.com/file/d/1UdpN5QESW6TyN9AdYgXfvgnJyx1RR8bH/view?usp=drive_link)
-- [GLySAC](https://drive.google.com/file/d/1iLsmGtQSs2dD3emzvQv1kZaCKiv0f-KW/view?usp=drive_link)
+Pretrained checkpoints are available on [Hugging Face](https://huggingface.co/Hyun-Jic/DiffMix).
+
+- [CoNSeP](https://huggingface.co/Hyun-Jic/DiffMix/resolve/main/consep-ema_0.9999_010000.pt)
+- [GLySAC](https://huggingface.co/Hyun-Jic/DiffMix/resolve/main/glysac-ema_0.9999_010000.pt)
 
 #### Acknowledgement
 Our code is developed based on [Semantic Image Synthesis via Diffusion Models (SDM)](https://github.com/WeilunWang/semantic-diffusion-model) and [GradMix](https://github.com/QuIIL/Grad_Mix).
 
 #### Citation
 Please cite us if you use our work
+```bibtex
+@inproceedings{oh2023diffmix,
+  title={Diffmix: Diffusion model-based data synthesis for nuclei segmentation and classification in imbalanced pathology image datasets},
+  author={Oh, Hyun-Jic and Jeong, Won-Ki},
+  booktitle={International conference on medical image computing and computer-assisted intervention},
+  pages={337--345},
+  year={2023},
+  organization={Springer}
+}
+```
